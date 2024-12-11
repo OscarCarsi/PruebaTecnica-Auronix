@@ -9,7 +9,8 @@ const main = async () => {
     const resultJson ={
         results: charactersWithNameModified
     }
-    console.log(resultJson);
+    const jsonString = JSON.stringify(resultJson, null, 1);
+    console.log(jsonString);
 }
 
 main();
