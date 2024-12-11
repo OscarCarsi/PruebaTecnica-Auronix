@@ -1,4 +1,4 @@
-const remplaceName = (results) => {
+export const remplaceName = (results) => {
     return results.map((result) => {
         return{
             id: result.id,

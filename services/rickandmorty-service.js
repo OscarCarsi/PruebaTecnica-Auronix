@@ -1,6 +1,6 @@
 const URL_ENDPOINT = "https://rickandmortyapi.com/api/character/";
 
-const getCaracteres = async () => {
+export const getCaracteres = async () => {
     let allCharacters = [];
     let page = 1;
     let totalPages = 1;
