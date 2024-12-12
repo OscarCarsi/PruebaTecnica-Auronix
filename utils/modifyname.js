@@ -1,7 +1,7 @@
 export const remplaceName = (results) => {
-    return results.map((result) => {
+    return results.map((result, index) => {
         return{
-            id: result.id,
+            id: index + 1,
             name: result.name.replace(" ", "_"),
             status: result.status,
             gender: result.gender
